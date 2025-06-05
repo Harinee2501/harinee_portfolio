@@ -16,11 +16,11 @@ export const ExperienceSection = () => {
                 <Briefcase className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h4 className="text-lg font-semibold">AI Research Intern – Microsoft</h4>
+                <h4 className="text-lg font-semibold">Artificial Intelligence Intern – AICTE</h4>
                 <p className="text-muted-foreground text-sm">
                   Developed AI tools for internal automation. Focused on LLM benchmarking and model fine-tuning.
                 </p>
-                <p className="text-xs text-muted-foreground mt-2">May 2024 – July 2024</p>
+                <p className="text-xs text-muted-foreground mt-2">Nov 2024 – Dec 2024</p>
               </div>
             </div>
           </div>
@@ -32,11 +32,11 @@ export const ExperienceSection = () => {
                 <Code2 className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h4 className="text-lg font-semibold">Frontend Developer – Open Source</h4>
+                <h4 className="text-lg font-semibold">Artificial Intelligence Intern – Tripify India</h4>
                 <p className="text-muted-foreground text-sm">
                   Contributed to a ML-based crop disease project. Built responsive UI and optimized performance.
                 </p>
-                <p className="text-xs text-muted-foreground mt-2">Dec 2023 – March 2024</p>
+                <p className="text-xs text-muted-foreground mt-2">June 2025 – Present</p>
               </div>
             </div>
           </div>
