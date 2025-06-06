@@ -60,11 +60,15 @@ export const ProjectsSection = () => {
     scrollRef.current.scrollBy({ left: 400, behavior: "smooth" });
   };
 
+  const scrollLeft = () => {
+    scrollRef.current.scrollBy({ left: -400, behavior: "smooth" });
+  };
+
   return (
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Featured <span className="text-primary"> Projects </span>
+          <span className="text-primary"> Projects </span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -130,7 +134,14 @@ export const ProjectsSection = () => {
             ))}
           </div>
 
-          {/* Scroll Button */}
+          {/* Scroll Buttons */}
+          <button
+            onClick={scrollLeft}
+            className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow hover:bg-primary/80 transition-all z-10"
+          >
+            <ArrowRight size={20} className="rotate-180" />
+          </button>
+
           <button
             onClick={scrollRight}
             className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow hover:bg-primary/80 transition-all"
