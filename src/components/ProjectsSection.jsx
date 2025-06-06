@@ -4,52 +4,52 @@ import { useRef } from "react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Fundora",
+    description: "Fundora is a full-stack web application designed to help users manage project-based fund tracking, record expenses and incomes, upload receipts, and generate PDF/CSV reports — all in a visually intuitive dashboard.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Express", "Node", "MongoDB"],
+    demoUrl: "https://fundora-seven.vercel.app",
+    githubUrl: "https://github.com/Harinee2501/Fundora",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "LlamaSleuth",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "A RAG-powered web intelligence tool that scrapes and analyzes online content for insights, summarization, and credibility assessment through a Streamlit interface.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Python", "RAG", "LangChain", "Ollama"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Harinee2501/LlamaSleuth",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "SimuNex",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "SimuNex is an AI-driven IoT simulation platform that helps users identify components, receive project suggestions, and test hardware simulations in real-time.",
     image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Harinee2501/SimuNex",
   },
   {
     id: 4,
-    title: "Crop Disease Predictor",
+    title: "RepoVortex",
     description:
       "An ML model-based app to predict cotton crop diseases with YOLOv8 and CNN.",
     image: "/projects/project4.png",
     tags: ["YOLOv8", "CNN", "TensorFlow"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Harinee2501/RepoVortex",
   },
   {
     id: 5,
-    title: "Internship Portal Checker",
+    title: "Space Optimizer",
     description:
       "A chatbot to verify internship scams using scraping and RAG pipeline.",
     image: "/projects/project5.png",
     tags: ["Python", "RAG", "LangChain"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Harinee2501/Space_Optimizer",
   },
 ];
 
